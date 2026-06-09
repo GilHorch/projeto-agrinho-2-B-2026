@@ -1,0 +1,47 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #1f2937;
+}
+
+/* Logo */
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Barra de pesquisa */
+.barra-pesquisa {
+    display: flex;
+    align-items: center;
+}
+
+/* Campo de texto */
+.barra-pesquisa input {
+    padding: 10px 15px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 25px 0 0 25px;
+    outline: none;
+    font-size: 16px;
+}
+
+/* Botão */
+.barra-pesquisa button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #2563eb;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 25px 25px 0;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+/* Efeito ao passar o mouse */
+.barra-pesquisa button:hover {
+    background-color: #1d4ed8;
+}
